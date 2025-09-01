@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  # name: "CAD Blog"
+  name: "CaD Blog"
   # text: "CAD Blog"
-  # tagline: My great project tagline
+  tagline: Security | Programming 
   # actions:
   #   - theme: brand
   #     text: Markdown Examples
@@ -24,7 +24,7 @@ hero:
 ---
 
 <script setup>
-import BlogList from './BlogList.vue'
+import BlogList from '../.vitepress/theme/components/BlogList.vue'
 </script>
 
 <BlogList />
